@@ -1,0 +1,31 @@
+{
+  "frozen_at_utc": "2026-10-29T10:41:50.601656+00:00",
+  "selected_experiment": "E9_pairwise",
+  "selection_metric": "validation official accuracy; asset bytes break ties",
+  "selection_accuracy": 92.60651629072682,
+  "seed": 7506,
+  "training_arguments": [
+    "--method",
+    "linear",
+    "--features",
+    "hybrid_no_agreement",
+    "--objective",
+    "pairwise",
+    "--C",
+    "0.1"
+  ],
+  "validation_refit_predictions_identical": true,
+  "test_evaluated_before_freeze": false,
+  "asset_bytes": 5275,
+  "inference_sha256": {
+    "submission.py": "0d81c0ae1fef1280eeaf6b87beff3856a0204d4ab71aa73a188029cac9183270",
+    "features.py": "c2e144f4181e4ad8bd7205c65619bbf03892a1ed60172406805935b22119a43a",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "requirements.txt": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5",
+    "checkpoints/final/config.json": "4a473bf971c878fefd57287faf61f54eac6c77f5f36b1dc50bc54c1ab02baf23",
+    "checkpoints/final/weights.npz": "4878bfc49d9dc7741293dc0708e150a1e0ac47689a3ed3b092b905413f48a4df"
+  },
+  "source_version_note": "Original download was a ZIP without .git. SHA-256 identifies the exact code/assets."
+}

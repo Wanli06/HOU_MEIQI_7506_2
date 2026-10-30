@@ -1,0 +1,29 @@
+{
+  "frozen_at_utc": "2026-10-29T11:57:08.340467+00:00",
+  "selected_experiment": "V2_ensemble_LTX",
+  "selection_accuracy": 93.60902255639098,
+  "selection_correct": 747,
+  "selection": "Highest official validation correct count; asset size breaks ties",
+  "asset_bytes": 1069274,
+  "test_evaluated_for_v2_before_freeze": false,
+  "development_disclosure": "Second study requested after the original official test aggregate score was known. All second-study fitting, iteration/hyperparameter selection and model comparison used training/validation only. No test per-question labels or errors were inspected. The public test is a reused benchmark, not a newly untouched holdout.",
+  "inference_sha256": {
+    "submission.py": "0d81c0ae1fef1280eeaf6b87beff3856a0204d4ab71aa73a188029cac9183270",
+    "features.py": "c2e144f4181e4ad8bd7205c65619bbf03892a1ed60172406805935b22119a43a",
+    "submission_v2.py": "ba1ec16b1712e9c42a2e817d467c4abb672d4a9306f2f85fefe4a695b1a7ffc7",
+    "features_v2.py": "0cb2f2f29f8a6c1982085b50774edb165d6fa0f1b56aeaa063a9c860e5fb01b8",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "requirements.txt": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5",
+    "requirements-v2.txt": "8001e292df1842ef56181159f1879d6ee9569b90389b067dacc81c9bdb3d82a1",
+    "checkpoints/final_v2/config.json": "f265b26fd2e919ad5b6efdf742d5837df61ddaccb79dfba9fb70ca9437499b95",
+    "checkpoints/final_v2/legacy/config.json": "4a473bf971c878fefd57287faf61f54eac6c77f5f36b1dc50bc54c1ab02baf23",
+    "checkpoints/final_v2/legacy/weights.npz": "4878bfc49d9dc7741293dc0708e150a1e0ac47689a3ed3b092b905413f48a4df",
+    "checkpoints/final_v2/text/config.json": "04c9084ed8b31366f0b8a09a806e984f9ed297d031d05d8661a58f8c3e2696ed",
+    "checkpoints/final_v2/text/vectorizer.pkl": "1dd6cb431aa1c2c2738ca9bce4427999805eba42df9271e41c54565389304348",
+    "checkpoints/final_v2/text/weights.npz": "45b32a376e40fa8364258bb23dc718b65ec9763dbc2676fc61832da89ab59d94",
+    "checkpoints/final_v2/tree/config.json": "ff9823c2eaf19a62e094530ec7e7bc59c7791ba788e812b3b3d5f6e2a49d63f3",
+    "checkpoints/final_v2/tree/weights.npz": "575bd91375aba069ae66a0c9336c8dc538fed0d64ccbdb2674eff24ef7f80c2c"
+  }
+}

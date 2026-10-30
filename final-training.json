@@ -1,0 +1,29 @@
+{
+  "config": {
+    "method": "linear",
+    "seed": 7506,
+    "mask_invalid": true,
+    "features": "hybrid_no_agreement",
+    "C": 0.1,
+    "agreement": true,
+    "embedding_score": false,
+    "max_iter": 200,
+    "objective": "pairwise",
+    "max_leaf_nodes": 15,
+    "l2_regularization": 10.0,
+    "learning_rate": 0.06,
+    "min_samples_leaf": 30,
+    "training_questions": 4755,
+    "training_correct_count_histogram": [
+      0,
+      711,
+      732,
+      1070,
+      2242
+    ],
+    "optimizer_iterations": 137
+  },
+  "fit_seconds_including_training_load": 6.559318499988876,
+  "asset_bytes": 5275,
+  "python_pid": 10728
+}

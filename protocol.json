@@ -1,0 +1,45 @@
+{
+  "specs": [
+    {
+      "name": "conditional_w1.0_c0.1",
+      "weight": 1.0,
+      "C": 0.1
+    },
+    {
+      "name": "conditional_w1.0_c1.0",
+      "weight": 1.0,
+      "C": 1.0
+    },
+    {
+      "name": "conditional_w5.0_c0.1",
+      "weight": 5.0,
+      "C": 0.1
+    },
+    {
+      "name": "conditional_w5.0_c1.0",
+      "weight": 5.0,
+      "C": 1.0
+    },
+    {
+      "name": "conditional_w20.0_c0.1",
+      "weight": 20.0,
+      "C": 0.1
+    },
+    {
+      "name": "conditional_w20.0_c1.0",
+      "weight": 20.0,
+      "C": 1.0
+    }
+  ],
+  "question_folds": 3,
+  "seed": 7507,
+  "prior": "fixed v4 answer/kernel mixture (.25/.75)",
+  "prior_weights": [
+    0.25,
+    0.5,
+    0.75
+  ],
+  "gate": "hard training OOF >=82.8%",
+  "validation_or_test_read": false,
+  "caveat": "New family after adaptive training CV search; selected internal metrics are optimistic."
+}

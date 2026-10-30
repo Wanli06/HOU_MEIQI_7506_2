@@ -1,0 +1,136 @@
+{
+  "recorded_before_new_official_evaluation_utc": "2026-10-30T06:17:33.946309+00:00",
+  "selection": "Highest training-only OOF hard_correct among prior fixed mixture and fifth-study direct/mixture models.",
+  "prior_result": {
+    "kernel_weight": 0.75,
+    "correct": 4385,
+    "questions": 4755,
+    "hard_correct": 1744,
+    "hard_questions": 2114,
+    "hard_accuracy": 82.49763481551561,
+    "folds": [
+      {
+        "fold": 0,
+        "hard_correct": 560,
+        "hard_questions": 687
+      },
+      {
+        "fold": 1,
+        "hard_correct": 592,
+        "hard_questions": 715
+      },
+      {
+        "fold": 2,
+        "hard_correct": 592,
+        "hard_questions": 712
+      }
+    ]
+  },
+  "new_result": {
+    "rows": [
+      {
+        "spec": {
+          "name": "conditional_w1.0_c0.1",
+          "weight": 1.0,
+          "C": 0.1
+        },
+        "hard_correct": 1662,
+        "hard_n": 2114,
+        "hard_accuracy": 78.61873226111636
+      },
+      {
+        "spec": {
+          "name": "conditional_w1.0_c1.0",
+          "weight": 1.0,
+          "C": 1.0
+        },
+        "hard_correct": 1646,
+        "hard_n": 2114,
+        "hard_accuracy": 77.86187322611163
+      },
+      {
+        "spec": {
+          "name": "conditional_w5.0_c0.1",
+          "weight": 5.0,
+          "C": 0.1
+        },
+        "hard_correct": 1650,
+        "hard_n": 2114,
+        "hard_accuracy": 78.05108798486282
+      },
+      {
+        "spec": {
+          "name": "conditional_w5.0_c1.0",
+          "weight": 5.0,
+          "C": 1.0
+        },
+        "hard_correct": 1643,
+        "hard_n": 2114,
+        "hard_accuracy": 77.71996215704824
+      },
+      {
+        "spec": {
+          "name": "conditional_w20.0_c0.1",
+          "weight": 20.0,
+          "C": 0.1
+        },
+        "hard_correct": 1499,
+        "hard_n": 2114,
+        "hard_accuracy": 70.90823084200568
+      },
+      {
+        "spec": {
+          "name": "conditional_w20.0_c1.0",
+          "weight": 20.0,
+          "C": 1.0
+        },
+        "hard_correct": 1484,
+        "hard_n": 2114,
+        "hard_accuracy": 70.19867549668875
+      }
+    ],
+    "best_direct": {
+      "spec": {
+        "name": "conditional_w1.0_c0.1",
+        "weight": 1.0,
+        "C": 0.1
+      },
+      "hard_correct": 1662,
+      "hard_n": 2114,
+      "hard_accuracy": 78.61873226111636
+    },
+    "blends": [
+      {
+        "prior_weight": 0.25,
+        "hard_correct": 1688,
+        "hard_n": 2114,
+        "hard_accuracy": 79.84862819299904
+      },
+      {
+        "prior_weight": 0.5,
+        "hard_correct": 1733,
+        "hard_n": 2114,
+        "hard_accuracy": 81.97729422894986
+      },
+      {
+        "prior_weight": 0.75,
+        "hard_correct": 1749,
+        "hard_n": 2114,
+        "hard_accuracy": 82.7341532639546
+      }
+    ],
+    "best_blend": {
+      "prior_weight": 0.75,
+      "hard_correct": 1749,
+      "hard_n": 2114,
+      "hard_accuracy": 82.7341532639546
+    },
+    "seconds": 270.1045937000308,
+    "validation_or_test_read": false,
+    "gate_passed": false
+  },
+  "protocol_deviation": "Abandoned the self-imposed 82.8% CV gate on renewed user request, before viewing any new official result. This gate is not an assignment requirement. Its failed result remains recorded.",
+  "test_question_errors_inspected": false,
+  "new_official_test_evaluations_planned": 1,
+  "post_test_retuning": false
+}

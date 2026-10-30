@@ -1,0 +1,103 @@
+{
+  "rows": [
+    {
+      "spec": {
+        "name": "conditional_w1.0_c0.1",
+        "weight": 1.0,
+        "C": 0.1
+      },
+      "hard_correct": 1662,
+      "hard_n": 2114,
+      "hard_accuracy": 78.61873226111636
+    },
+    {
+      "spec": {
+        "name": "conditional_w1.0_c1.0",
+        "weight": 1.0,
+        "C": 1.0
+      },
+      "hard_correct": 1646,
+      "hard_n": 2114,
+      "hard_accuracy": 77.86187322611163
+    },
+    {
+      "spec": {
+        "name": "conditional_w5.0_c0.1",
+        "weight": 5.0,
+        "C": 0.1
+      },
+      "hard_correct": 1650,
+      "hard_n": 2114,
+      "hard_accuracy": 78.05108798486282
+    },
+    {
+      "spec": {
+        "name": "conditional_w5.0_c1.0",
+        "weight": 5.0,
+        "C": 1.0
+      },
+      "hard_correct": 1643,
+      "hard_n": 2114,
+      "hard_accuracy": 77.71996215704824
+    },
+    {
+      "spec": {
+        "name": "conditional_w20.0_c0.1",
+        "weight": 20.0,
+        "C": 0.1
+      },
+      "hard_correct": 1499,
+      "hard_n": 2114,
+      "hard_accuracy": 70.90823084200568
+    },
+    {
+      "spec": {
+        "name": "conditional_w20.0_c1.0",
+        "weight": 20.0,
+        "C": 1.0
+      },
+      "hard_correct": 1484,
+      "hard_n": 2114,
+      "hard_accuracy": 70.19867549668875
+    }
+  ],
+  "best_direct": {
+    "spec": {
+      "name": "conditional_w1.0_c0.1",
+      "weight": 1.0,
+      "C": 0.1
+    },
+    "hard_correct": 1662,
+    "hard_n": 2114,
+    "hard_accuracy": 78.61873226111636
+  },
+  "blends": [
+    {
+      "prior_weight": 0.25,
+      "hard_correct": 1688,
+      "hard_n": 2114,
+      "hard_accuracy": 79.84862819299904
+    },
+    {
+      "prior_weight": 0.5,
+      "hard_correct": 1733,
+      "hard_n": 2114,
+      "hard_accuracy": 81.97729422894986
+    },
+    {
+      "prior_weight": 0.75,
+      "hard_correct": 1749,
+      "hard_n": 2114,
+      "hard_accuracy": 82.7341532639546
+    }
+  ],
+  "best_blend": {
+    "prior_weight": 0.75,
+    "hard_correct": 1749,
+    "hard_n": 2114,
+    "hard_accuracy": 82.7341532639546
+  },
+  "seconds": 270.1045937000308,
+  "validation_or_test_read": false,
+  "gate_passed": false
+}

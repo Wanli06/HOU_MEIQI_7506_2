@@ -1,0 +1,278 @@
+{
+  "frozen_at_utc": "2026-10-30T06:18:08.905591+00:00",
+  "method_file": "submission_v5.py",
+  "asset_bytes": 12494458,
+  "training_only_selection": {
+    "rows": [
+      {
+        "spec": {
+          "name": "conditional_w1.0_c0.1",
+          "weight": 1.0,
+          "C": 0.1
+        },
+        "hard_correct": 1662,
+        "hard_n": 2114,
+        "hard_accuracy": 78.61873226111636
+      },
+      {
+        "spec": {
+          "name": "conditional_w1.0_c1.0",
+          "weight": 1.0,
+          "C": 1.0
+        },
+        "hard_correct": 1646,
+        "hard_n": 2114,
+        "hard_accuracy": 77.86187322611163
+      },
+      {
+        "spec": {
+          "name": "conditional_w5.0_c0.1",
+          "weight": 5.0,
+          "C": 0.1
+        },
+        "hard_correct": 1650,
+        "hard_n": 2114,
+        "hard_accuracy": 78.05108798486282
+      },
+      {
+        "spec": {
+          "name": "conditional_w5.0_c1.0",
+          "weight": 5.0,
+          "C": 1.0
+        },
+        "hard_correct": 1643,
+        "hard_n": 2114,
+        "hard_accuracy": 77.71996215704824
+      },
+      {
+        "spec": {
+          "name": "conditional_w20.0_c0.1",
+          "weight": 20.0,
+          "C": 0.1
+        },
+        "hard_correct": 1499,
+        "hard_n": 2114,
+        "hard_accuracy": 70.90823084200568
+      },
+      {
+        "spec": {
+          "name": "conditional_w20.0_c1.0",
+          "weight": 20.0,
+          "C": 1.0
+        },
+        "hard_correct": 1484,
+        "hard_n": 2114,
+        "hard_accuracy": 70.19867549668875
+      }
+    ],
+    "best_direct": {
+      "spec": {
+        "name": "conditional_w1.0_c0.1",
+        "weight": 1.0,
+        "C": 0.1
+      },
+      "hard_correct": 1662,
+      "hard_n": 2114,
+      "hard_accuracy": 78.61873226111636
+    },
+    "blends": [
+      {
+        "prior_weight": 0.25,
+        "hard_correct": 1688,
+        "hard_n": 2114,
+        "hard_accuracy": 79.84862819299904
+      },
+      {
+        "prior_weight": 0.5,
+        "hard_correct": 1733,
+        "hard_n": 2114,
+        "hard_accuracy": 81.97729422894986
+      },
+      {
+        "prior_weight": 0.75,
+        "hard_correct": 1749,
+        "hard_n": 2114,
+        "hard_accuracy": 82.7341532639546
+      }
+    ],
+    "best_blend": {
+      "prior_weight": 0.75,
+      "hard_correct": 1749,
+      "hard_n": 2114,
+      "hard_accuracy": 82.7341532639546
+    },
+    "seconds": 270.1045937000308,
+    "validation_or_test_read": false,
+    "gate_passed": false
+  },
+  "selection_protocol": {
+    "recorded_before_new_official_evaluation_utc": "2026-10-30T06:17:33.946309+00:00",
+    "selection": "Highest training-only OOF hard_correct among prior fixed mixture and fifth-study direct/mixture models.",
+    "prior_result": {
+      "kernel_weight": 0.75,
+      "correct": 4385,
+      "questions": 4755,
+      "hard_correct": 1744,
+      "hard_questions": 2114,
+      "hard_accuracy": 82.49763481551561,
+      "folds": [
+        {
+          "fold": 0,
+          "hard_correct": 560,
+          "hard_questions": 687
+        },
+        {
+          "fold": 1,
+          "hard_correct": 592,
+          "hard_questions": 715
+        },
+        {
+          "fold": 2,
+          "hard_correct": 592,
+          "hard_questions": 712
+        }
+      ]
+    },
+    "new_result": {
+      "rows": [
+        {
+          "spec": {
+            "name": "conditional_w1.0_c0.1",
+            "weight": 1.0,
+            "C": 0.1
+          },
+          "hard_correct": 1662,
+          "hard_n": 2114,
+          "hard_accuracy": 78.61873226111636
+        },
+        {
+          "spec": {
+            "name": "conditional_w1.0_c1.0",
+            "weight": 1.0,
+            "C": 1.0
+          },
+          "hard_correct": 1646,
+          "hard_n": 2114,
+          "hard_accuracy": 77.86187322611163
+        },
+        {
+          "spec": {
+            "name": "conditional_w5.0_c0.1",
+            "weight": 5.0,
+            "C": 0.1
+          },
+          "hard_correct": 1650,
+          "hard_n": 2114,
+          "hard_accuracy": 78.05108798486282
+        },
+        {
+          "spec": {
+            "name": "conditional_w5.0_c1.0",
+            "weight": 5.0,
+            "C": 1.0
+          },
+          "hard_correct": 1643,
+          "hard_n": 2114,
+          "hard_accuracy": 77.71996215704824
+        },
+        {
+          "spec": {
+            "name": "conditional_w20.0_c0.1",
+            "weight": 20.0,
+            "C": 0.1
+          },
+          "hard_correct": 1499,
+          "hard_n": 2114,
+          "hard_accuracy": 70.90823084200568
+        },
+        {
+          "spec": {
+            "name": "conditional_w20.0_c1.0",
+            "weight": 20.0,
+            "C": 1.0
+          },
+          "hard_correct": 1484,
+          "hard_n": 2114,
+          "hard_accuracy": 70.19867549668875
+        }
+      ],
+      "best_direct": {
+        "spec": {
+          "name": "conditional_w1.0_c0.1",
+          "weight": 1.0,
+          "C": 0.1
+        },
+        "hard_correct": 1662,
+        "hard_n": 2114,
+        "hard_accuracy": 78.61873226111636
+      },
+      "blends": [
+        {
+          "prior_weight": 0.25,
+          "hard_correct": 1688,
+          "hard_n": 2114,
+          "hard_accuracy": 79.84862819299904
+        },
+        {
+          "prior_weight": 0.5,
+          "hard_correct": 1733,
+          "hard_n": 2114,
+          "hard_accuracy": 81.97729422894986
+        },
+        {
+          "prior_weight": 0.75,
+          "hard_correct": 1749,
+          "hard_n": 2114,
+          "hard_accuracy": 82.7341532639546
+        }
+      ],
+      "best_blend": {
+        "prior_weight": 0.75,
+        "hard_correct": 1749,
+        "hard_n": 2114,
+        "hard_accuracy": 82.7341532639546
+      },
+      "seconds": 270.1045937000308,
+      "validation_or_test_read": false,
+      "gate_passed": false
+    },
+    "protocol_deviation": "Abandoned the self-imposed 82.8% CV gate on renewed user request, before viewing any new official result. This gate is not an assignment requirement. Its failed result remains recorded.",
+    "test_question_errors_inspected": false,
+    "new_official_test_evaluations_planned": 1,
+    "post_test_retuning": false
+  },
+  "inference_sha256": {
+    "checkpoints/final_v5/config.json": "425b55023d9c5ff95903c22f05d3f942d18b4dfea30c9a8d2ed7e394a1f4dca1",
+    "checkpoints/final_v5/model.pkl": "94f450802371f9509d1f556b12a9c732616aac4192b2eff341a31404d96d86b0",
+    "checkpoints/final_v5/prior/config.json": "714216737120765f8e9be795a7dc47e704860492e6cb0238079fd971036b3537",
+    "checkpoints/final_v5/prior/answer/config.json": "55d3c302a088c1fea3c4ca5fafb2a6b6befff2c26d9c648b03fd5be4478607e8",
+    "checkpoints/final_v5/prior/answer/meta.npz": "dfe6f6ade66c64615d94ee57255774a9cd7dc55434634ecb1b9e1e6afb1f62a1",
+    "checkpoints/final_v5/prior/kernel/config.json": "2599b3a2689b78875c45e1cf29562da4c10f8dec71a6c17754995a5728f07bb7",
+    "checkpoints/final_v5/prior/kernel/weights.npz": "572254693cfae51f050d32d95b9f92859c88baa86d51916e165efc3b0cbca16b",
+    "checkpoints/final_v5/prior/answer/legacy/config.json": "d7ea884fa1f9778684029e5c7c3761d4a46861fab8544f243a62e191a4388ddc",
+    "checkpoints/final_v5/prior/answer/legacy/weights.npz": "4878bfc49d9dc7741293dc0708e150a1e0ac47689a3ed3b092b905413f48a4df",
+    "checkpoints/final_v5/prior/answer/text/config.json": "a687de8abe32917ce3f79496abd224d1d70bc4db5319f41a0f3a91265166be85",
+    "checkpoints/final_v5/prior/answer/text/vectorizer.pkl": "5a13a3e6d04fef72bc18eadfef8d4d8916a9e590a347cf6d0a94e060c79a9079",
+    "checkpoints/final_v5/prior/answer/text/weights.npz": "45b32a376e40fa8364258bb23dc718b65ec9763dbc2676fc61832da89ab59d94",
+    "checkpoints/final_v5/prior/answer/tree/config.json": "5a44150e39c0288477be76e6e66a9e7e5d00269dc33efb92986cc081a4a508b1",
+    "checkpoints/final_v5/prior/answer/tree/weights.npz": "575bd91375aba069ae66a0c9336c8dc538fed0d64ccbdb2674eff24ef7f80c2c",
+    "submission_v5.py": "60279ae2283346ee959e3816dcb4ad15ad2c78779e20afcc739ab76a6e0cee1f",
+    "submission_v4_blend.py": "dfa972fa5654b634d710e474ccb23e9d7d08d245f0da8d30ff5645b2f5211e86",
+    "submission_v4_kernel.py": "7def782ed7879ccb5af7b7c79fc1c4a7daa607137898882b937fc22ca13be7a0",
+    "features_v4.py": "ef5c7017f3171ee8224dd99470f9ff366da0ccd9ac99e94d377234e7066a7dfe",
+    "features.py": "c2e144f4181e4ad8bd7205c65619bbf03892a1ed60172406805935b22119a43a",
+    "features_v2.py": "0cb2f2f29f8a6c1982085b50774edb165d6fa0f1b56aeaa063a9c860e5fb01b8",
+    "reason_features_v3.py": "51167bdfcf9d298be64adaddfc350505833ce82e191959aff8e50d07f2ae327f",
+    "formula_features_v3.py": "39aa77603bc66b961c9f7ff1500bc44fe2aa238dff0cdd4559110af9d3813a8b",
+    "submission.py": "0d81c0ae1fef1280eeaf6b87beff3856a0204d4ab71aa73a188029cac9183270",
+    "submission_v2.py": "ba1ec16b1712e9c42a2e817d467c4abb672d4a9306f2f85fefe4a695b1a7ffc7",
+    "submission_v3.py": "efd65a96986597f99f6b0cfedfd7ddda454c7d3cbd15135cfe2874c4e32346e4",
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c"
+  },
+  "export_id_and_permutation_audit": "passed",
+  "prior_aggregate_test_results_known": [
+    81.37044967880085,
+    80.94218415417559,
+    80.94218415417559
+  ]
+}

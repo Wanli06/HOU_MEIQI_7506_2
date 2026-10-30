@@ -1,0 +1,102 @@
+{
+  "frozen_at_utc": "2026-10-29T12:29:16.261984+00:00",
+  "selected_family": "answer_stack",
+  "method_file": "submission_v3.py",
+  "selection": "maximum nested-training hard correct count; asset bytes break ties",
+  "selected": {
+    "family": "answer_stack",
+    "method_file": "submission_v3.py",
+    "nested_hard_correct": 1729,
+    "nested_hard_n": 2114,
+    "nested_hard_accuracy": 81.78807947019868,
+    "asset_bytes": 1251173,
+    "fit_seconds": 169.21960599999875,
+    "selected": {
+      "meta": {
+        "name": "rank7_300",
+        "method": "tree",
+        "leaves": 7,
+        "trees": 300
+      },
+      "nested_oof_correct": 4370,
+      "nested_oof_hard_correct": 1729,
+      "nested_oof_hard_n": 2114,
+      "nested_oof_hard_accuracy": 81.78807947019868,
+      "fold_hard_accuracy_std": 1.2660934026264605
+    }
+  },
+  "family_comparison": [
+    {
+      "family": "answer_stack",
+      "method_file": "submission_v3.py",
+      "nested_hard_correct": 1729,
+      "nested_hard_n": 2114,
+      "nested_hard_accuracy": 81.78807947019868,
+      "asset_bytes": 1251173,
+      "fit_seconds": 169.21960599999875,
+      "selected": {
+        "meta": {
+          "name": "rank7_300",
+          "method": "tree",
+          "leaves": 7,
+          "trees": 300
+        },
+        "nested_oof_correct": 4370,
+        "nested_oof_hard_correct": 1729,
+        "nested_oof_hard_n": 2114,
+        "nested_oof_hard_accuracy": 81.78807947019868,
+        "fold_hard_accuracy_std": 1.2660934026264605
+      }
+    },
+    {
+      "family": "formula_stack",
+      "method_file": "submission_v3_formula.py",
+      "nested_hard_correct": 1720,
+      "nested_hard_n": 2114,
+      "nested_hard_accuracy": 81.36234626300852,
+      "asset_bytes": 3508976,
+      "fit_seconds": 175.5893911999883,
+      "selected": {
+        "C": 0.01,
+        "nested_oof_correct": 4361,
+        "nested_oof_hard_correct": 1720,
+        "nested_oof_hard_n": 2114,
+        "nested_oof_hard_accuracy": 81.36234626300852,
+        "fold_hard_accuracy_std": 0.5262533453718805
+      }
+    }
+  ],
+  "asset_bytes": 1251173,
+  "v3_validation_evaluated_before_freeze": false,
+  "v3_test_evaluated_before_freeze": false,
+  "prior_aggregate_test_scores_known": [
+    81.37044967880085,
+    80.94218415417559
+  ],
+  "provenance": "Base configurations inherited from earlier train/validation development. V3 meta/family choices use only nested training CV. No per-question test inspection. The public test is reused, not untouched.",
+  "inference_sha256": {
+    "common.py": "aecd10f7ff2e9e82ac5673d34d576e122caac51d2caaa7c7a8aa05906da51f6c",
+    "predict.py": "e7a627fbdc9ef8d4ab3189a6fa5ac02d56ae703ccd1a81507aea0bd66e042162",
+    "score_predictions.py": "fe12b809b82117aea722e5dfef7a55a88950a7cf50c49ec2ea007ea847959960",
+    "features.py": "c2e144f4181e4ad8bd7205c65619bbf03892a1ed60172406805935b22119a43a",
+    "submission.py": "0d81c0ae1fef1280eeaf6b87beff3856a0204d4ab71aa73a188029cac9183270",
+    "features_v2.py": "0cb2f2f29f8a6c1982085b50774edb165d6fa0f1b56aeaa063a9c860e5fb01b8",
+    "submission_v2.py": "ba1ec16b1712e9c42a2e817d467c4abb672d4a9306f2f85fefe4a695b1a7ffc7",
+    "reason_features_v3.py": "51167bdfcf9d298be64adaddfc350505833ce82e191959aff8e50d07f2ae327f",
+    "submission_v3.py": "efd65a96986597f99f6b0cfedfd7ddda454c7d3cbd15135cfe2874c4e32346e4",
+    "formula_features_v3.py": "39aa77603bc66b961c9f7ff1500bc44fe2aa238dff0cdd4559110af9d3813a8b",
+    "submission_v3_formula.py": "64fa76bafe3b3b4e163d8652921cde2d55622b218407bde89eb22ba8cd8ecb07",
+    "requirements.txt": "5c12d85e7c08038d1dd9ffbf8119d12ce808885230a47e2bf65dcd9f114659d5",
+    "requirements-v2.txt": "8001e292df1842ef56181159f1879d6ee9569b90389b067dacc81c9bdb3d82a1",
+    "requirements-v3.txt": "5460cbd458551ab268dac944a6c7a0617a001e5dc8532b1a28990e01c04d66b3",
+    "checkpoints/final_v3/config.json": "55d3c302a088c1fea3c4ca5fafb2a6b6befff2c26d9c648b03fd5be4478607e8",
+    "checkpoints/final_v3/legacy/config.json": "d7ea884fa1f9778684029e5c7c3761d4a46861fab8544f243a62e191a4388ddc",
+    "checkpoints/final_v3/legacy/weights.npz": "4878bfc49d9dc7741293dc0708e150a1e0ac47689a3ed3b092b905413f48a4df",
+    "checkpoints/final_v3/meta.npz": "dfe6f6ade66c64615d94ee57255774a9cd7dc55434634ecb1b9e1e6afb1f62a1",
+    "checkpoints/final_v3/text/config.json": "a687de8abe32917ce3f79496abd224d1d70bc4db5319f41a0f3a91265166be85",
+    "checkpoints/final_v3/text/vectorizer.pkl": "5a13a3e6d04fef72bc18eadfef8d4d8916a9e590a347cf6d0a94e060c79a9079",
+    "checkpoints/final_v3/text/weights.npz": "45b32a376e40fa8364258bb23dc718b65ec9763dbc2676fc61832da89ab59d94",
+    "checkpoints/final_v3/tree/config.json": "5a44150e39c0288477be76e6e66a9e7e5d00269dc33efb92986cc081a4a508b1",
+    "checkpoints/final_v3/tree/weights.npz": "575bd91375aba069ae66a0c9336c8dc538fed0d64ccbdb2674eff24ef7f80c2c"
+  }
+}
